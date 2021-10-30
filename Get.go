@@ -45,8 +45,8 @@ func checkArgs() {
 
 func usage() {
 	fmt.Println("Get App v1.0")
-	fmt.Println("Usage: get.exe [-o] [filename] [url]")
-	fmt.Println("Usage: get.exe [url]")
+	fmt.Printf("Usage: %s [-o] [filename] [url]\n", os.Args[0])
+	fmt.Printf("Usage: %s [url]\n", os.Args[0])
 	os.Exit(0)
 }
 
